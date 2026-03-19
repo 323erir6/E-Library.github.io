@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Е-бібліотека — Зарубіжна література (1–11 класи)</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Зарубіжна література — Е-бібліотека</h1>
+      <nav class="nav">
+        <span class="badge">1–11 класи</span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-grid">
+    <aside class="filters" aria-label="Фільтри">
+      <h2>Фільтри 🔎</h2>
+
+      <div class="filter-group">
+        <label for="gradeSelect">Клас</label>
+        <select id="gradeSelect">
+          <option value="all">Всі класи</option>
+          <option value="1">1 клас</option>
+          <option value="2">2 клас</option>
+          <option value="3">3 клас</option>
+          <option value="4">4 клас</option>
+          <option value="5">5 клас</option>
+          <option value="6">6 клас</option>
+          <option value="7">7 клас</option>
+          <option value="8">8 клас</option>
+          <option value="9">9 клас</option>
+          <option value="10">10 клас</option>
+          <option value="11">11 клас</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label>Жанр</label>
+        <div class="checkboxes">
+          <label><input type="checkbox" value="Поезія" class="genre"> Поезія</label>
+          <label><input type="checkbox" value="Проза" class="genre"> Проза</label>
+          <label><input type="checkbox" value="Драма" class="genre"> Драма</label>
+          <label><input type="checkbox" value="Казка" class="genre"> Казка</label>
+          <label><input type="checkbox" value="Повість" class="genre"> Повість</label>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <label for="sortSelect">Сортування</label>
+        <select id="sortSelect">
+          <option value="title">Назва (А–Я)</option>
+          <option value="author">Автор (А–Я)</option>
+          <option value="year">Рік (зростання)</option>
+        </select>
+      </div>
+
+      <div class="filter-actions">
+        <button id="clearFilters">Очистити</button>
+      </div>
+
+      <footer class="filters-note">
+        Підказка: оберіть клас або жанр, або скористайтеся пошуком.
+      </footer>
+    </aside>
+
+    <section class="library">
+      <div id="statusMessage" aria-live="polite" style="padding:8px 12px;font-size:0.9rem;color:#b91c1c;display:none;"></div>
+      <div class="toolbar">
+        <select id="viewSelect" aria-label="Показати">
+          <option value="all" selected>Всі книги</option>
+          <option value="recommended">Рекомендовані</option>
+        </select>
+
+        <input id="searchInput" type="search" placeholder="Пошук за назвою або автором..." aria-label="Пошук">
+
+        <div class="stats"><span id="resultCount">0 книжок</span></div>
+
+        <select id="themeSelect" class="theme-select" aria-label="Тема">
+          <option value="light">Світла</option>
+          <option value="dark">Темна</option>
+          <option value="sepia">Сепія</option>
+        </select>
+      </div>
+
+      <div id="bookGrid" class="book-grid" aria-live="polite"></div>
+
+    </section>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true">
+      <button id="modalClose" class="modal-close" aria-label="Закрити">✕</button>
+      <div id="modalContent"></div>
+    </div>
+    <div class="modal-backdrop"></div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">© Е-бібліотека — Зарубіжна література (1–11). Пошук, фільтри, улюблені.</div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
