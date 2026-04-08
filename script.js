@@ -2,6 +2,58 @@
 console.log('script.js executing');
 let books = []; // populated from /api/books (files in books_core)
 
+// Root Google Drive folder that contains EBIB_BOOKS_SITE
+const DRIVE_FOLDER_ID = '1N16kt_a2QcyUC0xWYTuwGvTmZf5ie2YD';
+
+// Helpers to normalize catalog entries and work with Drive links
+const driveIdRegex = /^[A-Za-z0-9_-]{20,}$/;
+
+function toPreviewUrl(file){
+  if(!file) return null;
+  const f = String(file).trim();
+  if(f.startsWith('http')){
+    // convert common Drive share links to preview
+    if(f.includes('drive.google.com')){
+      return f
+        .replace('/view', '/preview')
+        .replace('/edit', '/preview')
+        .replace('open?id=', 'file/d/')
+        .replace('/uc?export=download&id=', '/file/d/')
+        .replace(/\?(usp|resourcekey)[^#]+/, '');
+    }
+    return f; // any other URL – open as is
+  }
+  // if we got a plain Drive file id – build preview URL
+  if(driveIdRegex.test(f)) return `https://drive.google.com/file/d/${f}/preview`;
+  // otherwise return null so caller can fallback to local reader
+  return null;
+}
+
+function deriveImgFromFile(file){
+  if(!file) return null;
+  const cleaned = String(file).split('?')[0];
+  const last = cleaned.split('/').pop() || '';
+  if(!last) return null;
+  const stem = last.replace(/\.[^.]+$/, '');
+  return `img/${stem}.jpg`;
+}
+
+function normalizeBook(raw){
+  const book = {...raw};
+  book._key = String(raw.file || raw.id || '');
+  if(!book.img) book.img = deriveImgFromFile(book.file);
+  return book;
+}
+
+function normalizeBooks(list){
+  if(!Array.isArray(list)) return [];
+  return list.map(normalizeBook);
+}
+
+function bookKey(b){
+  return String(b ? (b._key || b.file || b.id || '') : '');
+}
+
 // Embedded fallback catalog (used if fetch fails). Contains initial items + added items for клас 1–7
 const defaultBooks = [
   {id:1,title:"Ромео і Джульєтта",author:"Вільям Шекспір",grades:[9,10,11],genre:"Драма",year:1597,desc:"Трагедія про кохання і ворожнечу родин.",coverColor:"#f97316",recommended:true},
@@ -80,9 +132,48 @@ function showStatus(msg, isError=false){
   el.style.display = 'block';
   el.style.color = isError ? '#b91c1c' : '#065f46';
 }
+// Try to load a SQLite DB (`books.db`) served as a static asset (works on GitHub Pages)
+async function loadDbCatalog(){
+  if(typeof initSqlJs !== 'function'){
+    console.debug('sql.js loader not available');
+    return false;
+  }
+  try{
+    const SQL = await initSqlJs({ locateFile: file => 'https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/' + file });
+    const res = await fetch('books.db?_=' + Date.now());
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    const ab = await res.arrayBuffer();
+    const u8 = new Uint8Array(ab);
+    const db = new SQL.Database(u8);
+    const result = db.exec("SELECT file, title, author, grades, genre, year, desc, img, recommended, literature FROM books");
+    if(!result || !result[0]) return false;
+    const cols = result[0].columns;
+    const rows = result[0].values.map(v => {
+      const obj = {};
+      v.forEach((val, idx) => obj[cols[idx]] = val);
+      try{ obj.grades = obj.grades ? JSON.parse(obj.grades) : []; }catch(e){ obj.grades = []; }
+      obj.recommended = obj.recommended ? true : false;
+      return obj;
+    });
+    books = rows;
+    console.info(`Loaded ${books.length} books from books.db`);
+    showStatus(`SQLite: отримано ${books.length} записів`);
+    return true;
+  }catch(err){
+    console.warn('Failed to load SQLite DB:', err);
+    return false;
+  }
+}
 
 // load catalog from `books_core` via local API and then initialize the view
 window.loadCatalog = async function loadCatalog(){
+  showStatus('Завантаження каталогу...');
+  // try SQLite DB first (hosted as static file on GitHub Pages)
+  try{
+    const ok = await loadDbCatalog();
+    if(ok && books.length>0){ books = normalizeBooks(books); initTheme(); applyFilters(); return; }
+  }catch(e){ console.warn('sqlite attempt failed', e); }
+
   // try relative API first (works when served via http://localhost:8000)
   const tryFetch = async (url)=>{
     const res = await fetch(url);
@@ -122,6 +213,8 @@ window.loadCatalog = async function loadCatalog(){
     }catch(_e){/*ignore*/}
   }
 
+  books = normalizeBooks(books);
+
   initTheme();
   applyFilters();
 };
@@ -131,7 +224,7 @@ window.addEventListener('load', ()=> window.loadCatalog());
 
 const $ = s => document.querySelector(s);
 const $$ = s => Array.from(document.querySelectorAll(s));
-let favs = new Set(JSON.parse(localStorage.getItem('favs')||'[]'));
+let favs = new Set(JSON.parse(localStorage.getItem('favs')||'[]').map(String));
 
 function formatYear(y){ return y>0?y:+Math.abs(y)+" до н.е." }
 function pluralize(n){ if(n===0) return 'книжок'; const m = n%10; const mm = n%100; if(m===1 && mm!==11) return 'книжка'; if(m>=2 && m<=4 && !(mm>=12 && mm<=14)) return 'книжки'; return 'книжок'; }
@@ -159,6 +252,7 @@ function renderBooks(list){
   const titles = list.map(b=>b.title).slice(0,5).join(', ');
   showStatus(`Показано ${list.length} книг: ${titles}${list.length>5?','+'…':''}`);
   list.forEach(b=>{
+    const key = bookKey(b);
     const card = document.createElement('article'); card.className='book-card fade-in-up';
     const initials = b.title.split(' ').slice(0,2).map(w=>w[0]||'').join('').toUpperCase();
     const coverHtml = b.img ?
@@ -176,14 +270,14 @@ function renderBooks(list){
           ${b.recommended?'<span class="tag" style="background:linear-gradient(90deg,var(--accent),#7c3aed);color:#fff">Рекоменд.</span>':''}
         </div>
         <div class="card-actions">
-          <button type="button" class="btn details" data-id="${b.id}" aria-label="Деталі">Деталі</button>
-          <button type="button" class="btn ghost star" data-id="${b.id}" aria-pressed="${favs.has(b.id)}">${favs.has(b.id)?'★':'☆'}</button>
+          <button type="button" class="btn details" data-key="${key}" aria-label="Деталі">Деталі</button>
+          <button type="button" class="btn ghost star" data-key="${key}" aria-pressed="${favs.has(key)}">${favs.has(key)?'★':'☆'}</button>
         </div>
       </div>`;
     // open modal when clicking the whole card (but ignore clicks on buttons/icons)
     card.addEventListener('click', (e) => {
       if (e.target.closest('.star') || e.target.closest('.details') || e.target.closest('button')) return;
-      openModal(Number(b.id));
+      openModal(key);
     });
     grid.appendChild(card);
   });
@@ -215,8 +309,8 @@ function applyFilters(){
 let debounceTimer=null;
 function debounce(fn,ms=250){ clearTimeout(debounceTimer); debounceTimer=setTimeout(fn,ms) }
 
-async function openModal(id){
-  const b = books.find(x=>x.id===id); if(!b) return;
+async function openModal(key){
+  const b = books.find(x=>bookKey(x)===String(key)); if(!b) return;
   const modal = $('#modal');
   modal.setAttribute('aria-hidden','false');
   modal.querySelector('.modal-backdrop').addEventListener('click',closeModal);
@@ -234,7 +328,7 @@ async function openModal(id){
           <p>${b.desc || ''}</p>
           <div style="margin-top:12px">
             <button class="btn" id="readBtn">${b.file ? 'Відкрити текст' : 'Файл не доступний'}</button>
-            <button class="btn ghost" id="favModal">${favs.has(b.id)?'Прибрати з улюблених':'Додати в улюблені'}</button>
+            <button class="btn ghost" id="favModal">${favs.has(bookKey(b))?'Прибрати з улюблених':'Додати в улюблені'}</button>
           </div>
         </div>
       </div>`;
@@ -246,6 +340,14 @@ async function openModal(id){
       readBtn.addEventListener('click', async ()=>{
         readBtn.disabled = true; readBtn.textContent = 'Завантаження...';
         try{
+          const previewUrl = toPreviewUrl(b.file);
+          if(previewUrl){
+            window.open(previewUrl, '_blank', 'noopener');
+            showStatus('Відкриваю файл у переглядачі Google Drive');
+            return;
+          }
+
+          // Fallback: load inline (legacy local files)
           let contentHtml = '';
           if(b.html || b.text){
             contentHtml = b.html || ('<pre>' + (b.text||'') + '</pre>');
@@ -271,25 +373,27 @@ async function openModal(id){
         }catch(err){
           console.error('error fetching book text', err);
           alert('Не вдалося завантажити текст книги: ' + (err.message||err));
+        }finally{
           readBtn.disabled = false; readBtn.textContent = 'Відкрити текст';
         }
       });
     }
 
-    if(favModalBtn) favModalBtn.addEventListener('click', ()=>{ toggleFav(b.id); favModalBtn.textContent = favs.has(b.id)?'Прибрати з улюблених':'Додати в улюблені'; });
+    if(favModalBtn) favModalBtn.addEventListener('click', ()=>{ const k = bookKey(b); toggleFav(k); favModalBtn.textContent = favs.has(k)?'Прибрати з улюблених':'Додати в улюблені'; });
   }
 
   renderDetails();
 }
 function closeModal(){ const modal = $('#modal'); modal.setAttribute('aria-hidden','true'); }
 
-function toggleFav(id){
+function toggleFav(key){
+  const id = String(key);
   // update data
   if(favs.has(id)) favs.delete(id); else favs.add(id);
   localStorage.setItem('favs', JSON.stringify(Array.from(favs)));
 
   // Update only the affected star buttons in DOM to avoid re-rendering the whole grid
-  document.querySelectorAll(`.star[data-id="${id}"]`).forEach(btn=>{
+  document.querySelectorAll(`.star[data-key="${id}"]`).forEach(btn=>{
     const pressed = favs.has(id);
     btn.setAttribute('aria-pressed', pressed);
     btn.textContent = pressed ? '★' : '☆';
@@ -308,8 +412,8 @@ function toggleFav(id){
 
 // events
 document.addEventListener('click', (e)=>{
-  const det = e.target.closest('.details'); if(det){ openModal(Number(det.dataset.id)); return }
-  const star = e.target.closest('.star'); if(star){ toggleFav(Number(star.dataset.id)); return }
+  const det = e.target.closest('.details'); if(det){ openModal(det.dataset.key); return }
+  const star = e.target.closest('.star'); if(star){ toggleFav(star.dataset.key); return }
 });
 
 $('#gradeSelect').addEventListener('change',applyFilters);
