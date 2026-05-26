@@ -1,184 +1,2438 @@
-﻿[
-    {
-        "file":  "books_core/balzak-onore-de-hobsek20.docx",
-        "title":  "Гобсек",
-        "author":  "Оноре де Бальзак",
-        "grades":  [
-                       9
-                   ],
-        "genre":  "Документ",
-        "year":  2026,
-        "desc":  "Файл: balzak-onore-de-hobsek20.docx",
-        "img":  "img/balzak-onore-de-hobsek20.jpg",
-        "recommended":  null,
-        "literature":  null
-    },
-    {
-        "file":  "books_core/bayron-dzhordzh-hordon-khotiv-by-zhyty-znov-u-horakh1552.docx",
-        "title":  "Хотів би жити знов у горах",
-        "author":  "Джордж Гордон Байрон",
-        "grades":  [
-                       9
-                   ],
-        "genre":  "Документ",
-        "year":  2026,
-        "desc":  "Файл: bayron-dzhordzh-hordon-khotiv-by-zhyty-znov-u-horakh1552.docx",
-        "img":  "img/bayron-dzhordzh-hordon-khotiv-by-zhyty-znov-u-horakh1552.jpg",
-        "recommended":  null,
-        "literature":  null
-    },
-    {
-        "file":  "books_core/bronte-sharlotta-dzheyn-eyr-(skorocheno)10394.docx",
-        "title":  "Джейн Ейр",
-        "author":  "Шарлотта Бронте",
-        "grades":  [
-                       9
-                   ],
-        "genre":  "Документ",
-        "year":  2026,
-        "desc":  "Файл: bronte-sharlotta-dzheyn-eyr-(skorocheno)10394.docx",
-        "img":  "img/bronte-sharlotta-dzheyn-eyr-(skorocheno)10394.jpg",
-        "recommended":  null,
-        "literature":  null
-    },
-    {
-        "file":  "books_core/gete-yohann-volfhanh-travneva-pisnia342.docx",
-        "title":  "Травнева пісня",
-        "author":  "Йоганн Вольфганг Ґете",
-        "grades":  [
-                       9
-                   ],
-        "genre":  "Документ",
-        "year":  2026,
-        "desc":  "Файл: gete-yohann-volfhanh-travneva-pisnia342.docx",
-        "img":  "img/gete-yohann-volfhanh-travneva-pisnia342.jpg",
-        "recommended":  null,
-        "literature":  null
-    },
-    {
-        "file":  "books_core/heyne-henrikh-na-pivnochi-kedr-odynokyy1750.docx",
-        "title":  "На півночі кедр одинокий...",
-        "author":  "Генріх Гейне",
-        "grades":  [
-                       9
-                   ],
-        "genre":  "Документ",
-        "year":  2026,
-        "desc":  "Файл: heyne-henrikh-na-pivnochi-kedr-odynokyy1750.docx",
-        "img":  "img/heyne-henrikh-na-pivnochi-kedr-odynokyy1750.jpg",
-        "recommended":  null,
-        "literature":  null
-    },
-    {
-        "file":  "books_core/hiuho-viktor-sobor-paryzkoi-bohomateri-(skorocheno)10657.docx",
-        "title":  "Собор Паризької Богоматері",
-        "author":  "Віктор Гюго",
-        "grades":  [
-                       8
-                   ],
-        "genre":  "Документ",
-        "year":  2026,
-        "desc":  "Файл: hiuho-viktor-sobor-paryzkoi-bohomateri-(skorocheno)10657.docx",
-        "img":  "img/hiuho-viktor-sobor-paryzkoi-bohomateri-(skorocheno)10657.jpg",
-        "recommended":  null,
-        "literature":  null
-    },
-    {
-        "file":  "books_core/ibsen-henrik-lialkovyy-dim85.docx",
-        "title":  "Ляльковий дім",
-        "author":  "Генрік Ібсен",
-        "grades":  [
-                       9
-                   ],
-        "genre":  "Документ",
-        "year":  2026,
-        "desc":  "Файл: ibsen-henrik-lialkovyy-dim85.docx",
-        "img":  "img/ibsen-henrik-lialkovyy-dim85.jpg",
-        "recommended":  null,
-        "literature":  null
-    },
-    {
-        "file":  "books_core/meterlink-moris-syniy-ptakh3663.docx",
-        "title":  "Синій птах",
-        "author":  "Моріс Метерлінк",
-        "grades":  [
-                       9
-                   ],
-        "genre":  "Документ",
-        "year":  2026,
-        "desc":  "Файл: meterlink-moris-syniy-ptakh3663.docx",
-        "img":  "img/meterlink-moris-syniy-ptakh3663.jpg",
-        "recommended":  null,
-        "literature":  null
-    },
-    {
-        "file":  "books_core/nestlinher-kristine-marharytko-moia-kvitko-(skorocheno)9032.docx",
-        "title":  "Маргаритко, моя квітко",
-        "author":  "Крістіне Нестлінгер",
-        "grades":  [
-                       7
-                   ],
-        "genre":  "Документ",
-        "year":  2026,
-        "desc":  "Файл: nestlinher-kristine-marharytko-moia-kvitko-(skorocheno)9032.docx",
-        "img":  "img/nestlinher-kristine-marharytko-moia-kvitko-(skorocheno)9032.jpg",
-        "recommended":  null,
-        "literature":  null
-    },
-    {
-        "file":  "books_core/nevidomyy-avtor-farbovanyy-shakal-(indiyska-narodna-kazka)10417.docx",
-        "title":  "Фарбований шакал",
-        "author":  "індійська народна казка",
-        "grades":  [
-                       9
-                   ],
-        "genre":  "Документ",
-        "year":  2026,
-        "desc":  "Файл: nevidomyy-avtor-farbovanyy-shakal-(indiyska-narodna-kazka)10417.docx",
-        "img":  "img/nevidomyy-avtor-farbovanyy-shakal-(indiyska-narodna-kazka)10417.jpg",
-        "recommended":  null,
-        "literature":  null
-    },
-    {
-        "file":  "books_core/shou-dzhordzh-bernard-pihmalion320.docx",
-        "title":  "Пігмаліон",
-        "author":  "Джордж Бернард Шоу",
-        "grades":  [
-                       9
-                   ],
-        "genre":  "Документ",
-        "year":  2026,
-        "desc":  "Файл: shou-dzhordzh-bernard-pihmalion320.docx",
-        "img":  "img/shou-dzhordzh-bernard-pihmalion320.jpg",
-        "recommended":  null,
-        "literature":  null
-    },
-    {
-        "file":  "books_core/shyller-fridrikh-do-radosti3209.docx",
-        "title":  "До радості",
-        "author":  "Фрідріх Шиллер",
-        "grades":  [
-                       9
-                   ],
-        "genre":  "Документ",
-        "year":  2026,
-        "desc":  "Файл: shyller-fridrikh-do-radosti3209.docx",
-        "img":  "img/shyller-fridrikh-do-radosti3209.jpg",
-        "recommended":  null,
-        "literature":  null
-    },
-    {
-        "file":  "books_core/svift-dzhonatan-mandry-hullivera1092.docx",
-        "title":  "Мандри Гуллівера",
-        "author":  "Джонатан Свіфт",
-        "grades":  [
-                       8
-                   ],
-        "genre":  "Документ",
-        "year":  2026,
-        "desc":  "Файл: svift-dzhonatan-mandry-hullivera1092.docx",
-        "img":  "img/svift-dzhonatan-mandry-hullivera1092.jpg",
-        "recommended":  null,
-        "literature":  null
-    }
+[
+  {
+    "file": "https://drive.google.com/file/d/1xhvLfcoc4YSl0snBDY8fP2-nr4VhYgmP/view",
+    "title": "35 кіло надії",
+    "author": "Анна Гавальда",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1eaws4ICN0Js53kOmf1Vy2uGA9WVVTq9V/view",
+    "title": "3Усмішка",
+    "author": "На головному майдані черга постала",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1M6tYphft2AqGMWMEORzN03d8utiPbFrK/view",
+    "title": "Бджола та шершень",
+    "author": "Григорій Сковорода",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/14_6h9LoFEJ_lhBtJu3bHibBnfDQ9dgc6/view",
+    "title": "Вовк і Кіт",
+    "author": "Леонід Глібов",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1TKTKbCU6TU0GOiaWo7kuiSTxPfNE8eLa/view",
+    "title": "Голуб і лелека",
+    "author": "Микита Годованець",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1_EX0_NfjlpRCmOZewlQtSZSWduBS0sKD/view",
+    "title": "Дрібненькі грушки",
+    "author": "Олена Пчілка",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1kr5EKD6BR3oxLHUW5NHk0UuDg-KFZTTR/view",
+    "title": "Жага до життя",
+    "author": "Джек Лондон",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1YGpvHUB237MG1K5J9quiB6X7K4i5XHdg/view",
+    "title": "Життя й незвичайні та дивовижні",
+    "author": "пригоди Робінзона Крузо",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1raGz1vkshn_Avb0DmOFjLMpRddsIfjqt/view",
+    "title": "Запах думки",
+    "author": "Роберт Шеклі",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/18hOnzaLUj6yNNkjiVuV4HVTvyWgx6q2i/view",
+    "title": "Зозуля і півень",
+    "author": "Леонід Глібов",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1YQvBAj5s8CP1Wcb0Vbbp1QI1txkAAXGJ/view",
+    "title": "Конрад, або Дитина з бляшанки",
+    "author": "Крістіне Нестлінгер",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Tfk-9Rl1KG3GUe24_VT0Z4Y4-dVeHw7x/view",
+    "title": "Кря-ко-ко",
+    "author": "Микола Білокопитов",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1y1Mk5Va8bQwQCy2TbBkohe-H-gITz_qJ/view",
+    "title": "Лебедь і гуси",
+    "author": "Євген Гребінка",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1PGjeGxtfmGvbIXim41v0UhZom2XwD6JK/view",
+    "title": "Люлька згоди",
+    "author": "Генрі Водсворт Лонгфелло",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1qkvnvJ89hKewUQYN3QKrQmAM7eSMteA5/view",
+    "title": "Магнат",
+    "author": "Галина Пагутяк",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1fPOqwhKY-rNYSufKbWHMRJUbvQSq-2GM/view",
+    "title": "Моє серце в верховині",
+    "author": "Роберт Бернс",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1XljCpDvbmPlAf7qeYnOaAo6_PYecvzV3/view",
+    "title": "Міф про Дедала та Ікара",
+    "author": "Автор Невідомий",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1MZohpMKPWqHE1hKhEclEh1Yw5HV6VmSz/view",
+    "title": "Міф про Прометея",
+    "author": "Автор Невідомий",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1GwQfltEqCxFn6skhULXH3mUj_tpxeoVh/view",
+    "title": "Орфей і Еврідіка",
+    "author": "Автор Невідомий",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1SfIJ9exnp3BRyInsVC4cATNbwnSIRxE1/view",
+    "title": "П'ятнадцятирічний капітан",
+    "author": "Жуль Верн",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1L0e3tVxMRrP8vcyneiZ-p66wOhwVRw9d/view",
+    "title": "Подвиги Геракла",
+    "author": "Автор Невідомий",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Wz1ZWJtr7v7vDd07P67WGxqbj_2U6KH7/view",
+    "title": "Поет",
+    "author": "Василь Симоненко",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1wWVqUn7cyDl0jb4kuZCntci_mmLo0YcT/view",
+    "title": "Потерпілий кіт",
+    "author": "Петро Гришко",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1TTfjKieyBS7W6r-AettlPdWIsZssKKxu/view",
+    "title": "Прадуб (міф)",
+    "author": "Автор Невідомий",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1mv46tpAH2r2OWHyWSlmyAtwajXlbtD_x/view",
+    "title": "Різдвяна пісня в прозі",
+    "author": "Чарлз Діккенс",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1UxpPtus-nMqVDG7mmz503GtvJWKhh6jl/view",
+    "title": "Рік хвоста",
+    "author": "Аркадій Музичук",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1jRQDqTyYZMCmp0WBCCHbYwOpPYnttWfG/view",
+    "title": "Сиділа русалка на білій березі",
+    "author": "(русальна пісня)",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1zCVN5rx76p2NHZUh6JhupztaBOAz1GA1/view",
+    "title": "Сокіл-Род (міф)",
+    "author": "Автор Невідомий",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/19j3JlCdgScZZHw5qnEAjaRt8vp6m5804/view",
+    "title": "Там у полі криниченька (жниварська",
+    "author": "пісня)",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1E8CA90Nacd1p_gd_Lc7yryg5w2o9bZY7/view",
+    "title": "Хайку",
+    "author": "Мацуо Басьо",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1LIoxr-vzCF8q7zXBE3tPhvcL3XYl2JWC/view",
+    "title": "Ще не вмерла Україна",
+    "author": "Павло Чубинський",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/14sOCY9q67s1d6SCJ8pz_NxzvZ-rlb7Xq/view",
+    "title": "І досі сниться: під горою...",
+    "author": "Тарас Шевченко",
+    "grades": [
+      6
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 6_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1VtIqC-Z9QX7eTGWWCjqQRYzeRwGRM4g5/view",
+    "title": "Айвенго",
+    "author": "Вальтер Скотт",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1E18PMzDWl46-ZfoCN2fRYjwHKIH0l2j5/view",
+    "title": "Вересовий трунок",
+    "author": "Роберт Луїс Стівенсон",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1ulqoyDUmRHNWkBs51YjBj64ZEr-Dxnd6/view",
+    "title": "Дари волхвів",
+    "author": "О. Генрі",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1R4VCjwyAHe5Ursx8oRsLg-9oCOVpAZZN/view",
+    "title": "Дж. Бойн_Хлопчик у смугастій піжамі",
+    "author": "",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1cXVmcLeroN33IE5lzo2QVD0SPo-2HzPi/view",
+    "title": "До моїх пісень",
+    "author": "Йоганн Вольфганг Ґете",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1j33RcMezGA_XF6RLNoOB7Ha-LNaMpGxE/view",
+    "title": "До того, як любов у світ прийшла...",
+    "author": "П'єр де Ронсар",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1N3vbJt5D3KBTWMgoXUu6sQ1BPhOOBODi/view",
+    "title": "Золотий жук",
+    "author": "Едгар Аллан По",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/14Ziv7gcTFBF325wbWl5XGOjuUtUJm2lh/view",
+    "title": "Коли настав чудовий май",
+    "author": "Генріх Гейне",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1l5VsTyX56fShvB9e_O5Gs8-psFpJx-7o/view",
+    "title": "Король Лір і його дочки",
+    "author": "Автор Невідомий",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1OKwMgHmbuKF2OVQqQo1-55ottSq0rXyj/view",
+    "title": "Лист із полону",
+    "author": "Константи Ільдефонс Галчинський",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1k-hhfEK9AXw1gLiBZN0zulBMLIposdv6/view",
+    "title": "Маленький принц",
+    "author": "Антуан де Сент-Екзюпері",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1pZdie_Xh5qit67mpkSSNK_D2srUPcgRm/view",
+    "title": "Моя любов — рожевий квіт",
+    "author": "Роберт Бернс",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/19fE9GP6UC5L05DISxIAnEUqodnykASpm/view",
+    "title": "Непевність",
+    "author": "Адам Міцкевич",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1HKHg3VS3wwXDrAkrDNtZ4PqIXmXr1ITI/view",
+    "title": "Ніл Гейман_Koralina",
+    "author": "",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1mfblLKPnzewo-ysI-utCc_kUXxri2j55/view",
+    "title": "Останній листок",
+    "author": "О. Генрі",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Wd44vohk2Ua6-0_KMvhDSZ8YkkA8LNsX/view",
+    "title": "Павутинка",
+    "author": "Рюноске Акутагава",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/16cLSMOapWtqXHiqFbhz6YFj-l4DgZPdb/view",
+    "title": "Поєдинок Робіна Гуда з Гаєм",
+    "author": "Гізборном",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/11uIutdAEXjo2CbKIXAT5dlak-P59ADSL/view",
+    "title": "Про назву концтабору Бухенвальд",
+    "author": "Альфред Марґул-Шпербер",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1McytH0BYtKrvXQydmuyzeiJB87cWSMTs/view",
+    "title": "Пісня про солдатів Вестерплятте",
+    "author": "Константи Ільдефонс Галчинський",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1ZN4jefDRSTxO99-hMAflwxGp4I-k42_9/view",
+    "title": "Пістрява стрічка",
+    "author": "Артур Конан Дойл",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1SAQ4sWnv5grbOPGTbOwQajGwqnk-5MOL/view",
+    "title": "Рукавичка",
+    "author": "Фрідріх Шиллер",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1q6Fi06fke6J0No2RdpndncAkLx43w_AG/view",
+    "title": "Світязь",
+    "author": "Адам Міцкевич",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/18THj7Elp7Sb6iCk3pOpKdd-Dyy67cK59/view",
+    "title": "Спілка рудих",
+    "author": "Артур Конан Дойл",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1y6drQ3jwKAMyeJoZDKmky_NPqn5zeyOW/view",
+    "title": "Фах",
+    "author": "Айзек Азімов",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1pDoNnJ0za1aQ1HxRcD1xXIk8CdRkjLF_/view",
+    "title": "Як Робін Гуд став розбійником",
+    "author": "Автор Невідомий",
+    "grades": [
+      7
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 7_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1-zCztX-oPR5IUCZ5OA8lOSH4gDeJJzA9/view",
+    "title": "Бахчисарайський фонтан (переклад",
+    "author": "О. Грязнова)",
+    "grades": [
+      8
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 8_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1YS6hpoCFuZy8_qebLZl3JLhOrDW73XpQ/view",
+    "title": "Давидови псалми. Псалом 1",
+    "author": "Ліна Костенко",
+    "grades": [
+      8
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 8_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1OR8Ru0OeiN69WvqDV_gz0PDusS8Inr-A/view",
+    "title": "Дарунки скіфів",
+    "author": "Іван Білик",
+    "grades": [
+      8
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 8_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1NJFSk7fsOEVdCBvcFKnvZyu-j0lHSQbX/view",
+    "title": "Дивлюсь я на небо та й думку",
+    "author": "гадаю...",
+    "grades": [
+      8
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 8_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1VgTEYnC4HdJLJJEncifRCr3WWy6A0IKE/view",
+    "title": "Міфи Давньої ГреціїТроянський цикл",
+    "author": "Уривок з книги «Легенди і міфи Стародавньої Греції» Миколи Куна ТРОЯНСЬКИЙ ЦИКЛ Зміст: 1.Єлена, дочка Зевса і Леди 2.Пелей і Фетіда 3.Суд Паріса 4.Паріс повертається до Трої 5.Парі",
+    "grades": [
+      8
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 8_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1jzm3yE-5e3UQQD2cm5ErdG3DreW0CqBq/view",
+    "title": "Міщанин-шляхтич",
+    "author": "Мольєр",
+    "grades": [
+      8
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 8_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1gHFn6HajsnW1X5lMz9jz8iC_180djOMu/view",
+    "title": "Ой як крикнув же козак Сірко",
+    "author": "(історична пісня)",
+    "grades": [
+      8
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 8_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1B14gc_xfIVI4BkBDERRcw_fkk6yWXpxK/view",
+    "title": "Пастух Рашит",
+    "author": "Володимир Рутківський",
+    "grades": [
+      8
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 8_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1iCMgjKdB7jQnePpp_qYvEQrvNwYy20MC/view",
+    "title": "Причинна",
+    "author": "Тарас Шевченко",
+    "grades": [
+      8
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 8_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1-xww0Ak5ItsEYb6tNfvvjrmSpTAN-tOI/view",
+    "title": "Скажи-но, душе...",
+    "author": "Ашик Омер",
+    "grades": [
+      8
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 8_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1cAx7isAZPO4pLb4dodj3PmjAR14gXcBi/view",
+    "title": "Таємний щоденник Адріана Моула",
+    "author": "(скорочено)",
+    "grades": [
+      8
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 8_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1gK5W1pmS96vE4Sbsvn4WYAsGKuzfO5a6/view",
+    "title": "Ярославни",
+    "author": "Раїса Іванченко",
+    "grades": [
+      8
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 8_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1PFWvm50BUV63G0WZRwGN5U6tL7NbzGaT/view",
+    "title": "Їхав козак за Дунай",
+    "author": "Семен Климовський",
+    "grades": [
+      8
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 8_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1BheVhPb0-zVoq8UvJWe9gt5dI2K2F-CV/view",
+    "title": "De Libertate",
+    "author": "Григорій Сковорода",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1_OnOJj3M6LAd1Jq2Z4sTPLEMlzWXq_lt/view",
+    "title": "Бджола та шершень",
+    "author": "Григорій Сковорода",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/18Pxn7SwGicYJJvztnocwBTbYOZXd0OGE/view",
+    "title": "Всякому місту — звичай і права...",
+    "author": "Григорій Сковорода",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1vks00UY1TvgjAsWpvwAhbG_JXLHLV4Pt/view",
+    "title": "Гобсек",
+    "author": "Оноре де Бальзак",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1aYjHLbBNu3UqjgNXFOepJaAAosUdRc-k/view",
+    "title": "Джейн Ейр",
+    "author": "Шарлотта Бронте",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1VMQ9O9gTGLoCy2ULb2EgIxjhCpemkLMX/view",
+    "title": "До радості",
+    "author": "Фрідріх Шиллер",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Lyd4hNS0DRKKN8dfExggkqs0bTtjgaWs/view",
+    "title": "Енеїда",
+    "author": "Іван Котляревський",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1FxJUH6eSZ0ZFYsALLPDSYTTSZcmr902E/view",
+    "title": "Кавказ",
+    "author": "Тарас Шевченко",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1c6GDdiE4gL7FOneoEaNJVtmrOd0tzel0/view",
+    "title": "Катерина",
+    "author": "Тарас Шевченко",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1EZc081abxdv-382-1J_8tpxd5Pyur2HA/view",
+    "title": "Книга пісень (збірка)",
+    "author": "Генріх Гейне",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1PjpfFFL8fZvq6PUKnaadkkmijfxoppjj/view",
+    "title": "Ляльковий дім",
+    "author": "Генрік Ібсен",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1kA2qzijZscyQo_ouiWIPpr49cmJ1rbn6/view",
+    "title": "Мандри Гуллівера",
+    "author": "Джонатан Свіфт",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1eSZgZLviHMyI-BYhmZSytZE0LPy8JKXA/view",
+    "title": "Маруся",
+    "author": "Григорій Квітка-Основ'яненко",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1I-luhfWcNaTqdqwr6NEYrVyWGA1LUVR3/view",
+    "title": "На півночі кедр одинокий...",
+    "author": "Генріх Гейне",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/18S5X-xaG0rOsXGak0Xx9aDqbsf29Mq3R/view",
+    "title": "Наймичка",
+    "author": "Тарас Шевченко",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1LJrA4DXbyaZVDJfTcbKF9QMfNCdoS7P8/view",
+    "title": "Наталка-Полтавка",
+    "author": "Іван Котляревський",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1r4rYR1U372B1c_DmlDc6PR5nbGqGlLwS/view",
+    "title": "Пігмаліон",
+    "author": "Джордж Бернард Шоу",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1UMfqROgv8V6g1CSPBqeJPC1AObHQ2cOg/view",
+    "title": "Рибалка",
+    "author": "Петро Гулак-Артемовський",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1PKGLgNidzvLnJCMJN_ENuAzdUqFqvs_H/view",
+    "title": "Синій птах",
+    "author": "Моріс Метерлінк",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/18QZkd-5VNiWsISpRWKLCj308nUIt7Eg1/view",
+    "title": "Собор Паризької Богоматері",
+    "author": "Віктор Гюго",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1oavzXsNLfGhgjqxg_zuC4R27fjFPrkv8/view",
+    "title": "Тарас Бульба",
+    "author": "Микола Гоголь",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1aCQhV5Ih0nx0qi12BkXxACdXZLlMjWm2/view",
+    "title": "Тев'є-молочар",
+    "author": "Шолом-Алейхем",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Y7dCfhOHdmIAaHjE77kYJa6nBLoly2Ax/view",
+    "title": "Травнева пісня",
+    "author": "Йоганн Вольфганг Ґете",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1D_MPLvRRSRq1_lLofYSPTKyJdEp6hxmi/view",
+    "title": "Човен",
+    "author": "Євген Гребінка",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1FCwoXVbGAE0o2EEGZovJXQJvva1Os2lf/view",
+    "title": "Чорна рада",
+    "author": "Пантелеймон Куліш",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1q8RTQBqYjqVwA9IVGWUduMqmGFK4B0Bh/view",
+    "title": "І мертвим, і живим, і",
+    "author": "ненарожденним...",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1ALaFEtq8lUcED20hOdPal2napcw7Q-qS/view",
+    "title": "Історія Русів",
+    "author": "Іван Драч",
+    "grades": [
+      9
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 9_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/15V6biGzl3kH0_0MSkmlz4s2BX00BoShg/view",
+    "title": "Contra spem spero!",
+    "author": "Леся Українка",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1kPSE6TRs0rTKHFLfT4t_8ptmmbQhGrTz/view",
+    "title": "Impromtu phantasie",
+    "author": "Ольга Кобилянська",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1BXJugcsUtKMPv8_AaSHw8U_r1iOev3ZB/view",
+    "title": "Intermezzo",
+    "author": "Михайло Коцюбинський",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/17crAlOHz6XDFsveSES6Ve5ro-ECBRqdR/view",
+    "title": "Valse melancolique (Меланхолійний",
+    "author": "вальс)",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/14aCnHlnZnSGmqTXQ9DmAbtgD48IVRhB4/view",
+    "title": "Альбатрос",
+    "author": "Шарль Бодлер",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1oHejglCElYot7M_uow0iImBpk0w_mRj5/view",
+    "title": "Блакитна Панна",
+    "author": "Микола Вороний",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1hinWzjbw6bSvHhDoAl8A1vlUvHl3IClI/view",
+    "title": "Божественна комедія",
+    "author": "Данте Аліг'єрі",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1e86a0cviWh3H76iQk7Ho3CxN44cWuZ6D/view",
+    "title": "Вечорова гармонія",
+    "author": "Шарль Бодлер",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1PaTrMzqhbgBolq6sPR8WiN_feANLRiZ_/view",
+    "title": "Відповідності",
+    "author": "Шарль Бодлер",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1QxRkfnn1S9GdmZM_eJC4Kn7EleuSyLY5/view",
+    "title": "Гамлет",
+    "author": "Вільям Шекспір",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/10QozfnOazErQke9ZTp3QzFe1s1xqKR6X/view",
+    "title": "Голосівки",
+    "author": "Артюр Рембо",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Fhp_BD7og8x0FGbrpCPVqKooDcn6vkeS/view",
+    "title": "З вершин і низин",
+    "author": "Іван Франко",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/16tJ3RDOkIytcc164Pdgdr50FOdNROmvc/view",
+    "title": "З журбою радість обнялась…",
+    "author": "Олександр Олесь",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Pnu9aJxyJmEIHYNhLqlkqnBi71hjZVNP/view",
+    "title": "Зів'яле листя",
+    "author": "Іван Франко",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1BbUF63RU1T-CaLsJbg1lWndQ0KMl9CFN/view",
+    "title": "Кайдашева сім'я",
+    "author": "Іван Нечуй-Левицький",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1v9ZwZtjhQSvpFvSoCNhP9TGYnftM-QC1/view",
+    "title": "Камінний хрест",
+    "author": "Василь Стефаник",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/105dd5XU1M3QwnEZ8CeOCAvAtlqDjmhuw/view",
+    "title": "Квіти зла",
+    "author": "Шарль Бодлер",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1HDfBJoPSoRf4vU3mGEnAjeV-Y9EQVudK/view",
+    "title": "Крихітка Цахес на прізвисько",
+    "author": "Цинобер (Малюк Цахес)",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1_Zm_ROFumWsZvPaD6Gnh6HHNfGNBc1wc/view",
+    "title": "Легенда про вічне життя",
+    "author": "Іван Франко",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1qTM3jDDYJsQMQCRIHy8RD4vtHQbRyUwD/view",
+    "title": "Листя трави (збірка)",
+    "author": "Волт Вітмен",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1z54oWxbtfwFRMAHMbdw757Bx51GkgIC5/view",
+    "title": "Лісова пісня",
+    "author": "Леся Українка",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1DSPHbio9AWFxoH9UcK5LpxxOL6JrHcXH/view",
+    "title": "Мартин Боруля",
+    "author": "Іван Карпенко-Карий",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1U2VMPPs2WQ8BZNepcYK3ZDKONMDkAthR/view",
+    "title": "Мойсей",
+    "author": "Іван Франко",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1iBJpoeka6ySEDIBaeAa9FMe2dXbckGeC/view",
+    "title": "Момент",
+    "author": "Володимир Винниченко",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1vLwyly2PHOK1LJMnxfTKdAwmb4wR5WTb/view",
+    "title": "Моя циганерія",
+    "author": "Артюр Рембо",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1F6hnPTT9o9CZ6eHOKl58FHqXdAl9zkJ6/view",
+    "title": "О слово рідне! Орле скутий!..",
+    "author": "Олександр Олесь",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1C-7a7r6EtitvmdQ2YC7CBpSWZFa6o9Rq/view",
+    "title": "Одіссея",
+    "author": "Гомер",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Wm9i29FgAcffoVofG6wyIKNL3cFietqz/view",
+    "title": "Ой ти, дівчино, з горіха зерня...",
+    "author": "Іван Франко",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1OnB66VQPqvxZkz8aFttRsZV1_K-WmVDT/view",
+    "title": "Осіння пісня",
+    "author": "Поль Марі Верлен",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1jAHVeRFsc3jSsIHVRhce6UMujMLfEinT/view",
+    "title": "Пані Боварі",
+    "author": "Гюстав Флобер",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/13-nKHN1i74XFcL0h0eLrymg5LWz5Kqfk/view",
+    "title": "По дорозі в Казку",
+    "author": "Олександр Олесь",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Q6kitkFs2irzvWOc43RllcLFQHUxxWtf/view",
+    "title": "Поетичне мистецтво",
+    "author": "Поль Марі Верлен",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/11prJeJpLw0iM6TFpBdXs_h6POlbkFSPf/view",
+    "title": "Портрет Доріана Грея",
+    "author": "Оскар Уайльд",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1SglG0cFOI0B_WKS31nfZ4aRKKVKFJNbW/view",
+    "title": "Синій птах",
+    "author": "Моріс Метерлінк",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1sTb8Jql-McauPQXFjfIt5NDiOE6ZchRb/view",
+    "title": "Слово, чому ти не твердая криця...",
+    "author": "Леся Українка",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1GTgEjkEUb7ez4xIw4PrgQBMBFpHTa9TU/view",
+    "title": "Сойчине крило",
+    "author": "Іван Франко",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1HM4WtZ9q_w0o0BX3rz2Tu-qh1R_mkJQ7/view",
+    "title": "Сонячна машина",
+    "author": "Володимир Винниченко",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1r3Tq6OzOHI_K843gDU68O41ddwJEKjnw/view",
+    "title": "Стояла я і слухала весну...",
+    "author": "Леся Українка",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/10P-cs6GN2TmSU3dzd_rwlzN6tUisuyn8/view",
+    "title": "Тіні забутих предків",
+    "author": "Михайло Коцюбинський",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/19nIRW0It9sv-9B7xj5uaDrpsJh2b8PUa/view",
+    "title": "Хіба ревуть воли, як ясла повні?",
+    "author": "Панас Мирний",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1TzmToSlE8gbvZ1iZTyjGZZga3nb0NsaY/view",
+    "title": "Чари ночі",
+    "author": "Олександр Олесь",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1BMANFLrfsfL1rA9sJtf85W4osREOEIhh/view",
+    "title": "Червоне і чорне",
+    "author": "Стендаль",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Zarubizhna_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/19AEVBpBwxryO-3skbnVSmAymE1sZC475/view",
+    "title": "Чого являєшся мені...",
+    "author": "Іван Франко",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1pmT8z7cwRDPZuF4b_kTqLDxIcZXsGEsY/view",
+    "title": "Чорна пантера і білий ведмідь",
+    "author": "Володимир Винниченко",
+    "grades": [
+      10
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 10_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Rq8ZFnEXWngMIm-Dt5uoHx7hSfDMSkaM/view",
+    "title": "Автопортрет",
+    "author": "Богдан-Ігор Антонич",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1QohON-nMkyERV80TW5EgbGZWbjDePDYp/view",
+    "title": "Арфами, арфами...",
+    "author": "Павло Тичина",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1G7h-Oz3UX4GeCltpG7rqcvSlXlTV0Uvz/view",
+    "title": "Блакитна Панна",
+    "author": "Микола Вороний",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/10M0-BWAEUsLjRyS6jqWFG_4ZCgMMxixO/view",
+    "title": "В житах",
+    "author": "Григорій Косинка",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1fGvO3kmCff1zgOroV_bKbM2rG74Lunga/view",
+    "title": "Ви знаєте, як липа шелестить...",
+    "author": "Павло Тичина",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1jeaj7NN4ksPT6_DojvHlgYDvWTuYD2Gq/view",
+    "title": "Вчись у природи творчого спокою...",
+    "author": "Євген Плужник",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Km0ScCbFS3P50xnHNT3IBUP4ajnLfnAJ/view",
+    "title": "Для вас, історики майбутні...",
+    "author": "Євген Плужник",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Kk-sO5TvoTOewXiBjpbtFCQ6Uic-E-Zn/view",
+    "title": "Дороги",
+    "author": "Богдан-Ігор Антонич",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Lhz7uSrhuimyAKy1VRHlO5SoHK9zJ8qn/view",
+    "title": "Задивляюсь у твої зіниці...",
+    "author": "Василь Симоненко",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1-MN3_c0txojOr1XbVC5v-KIMgf_cRyhr/view",
+    "title": "Зачарована Десна",
+    "author": "Олександр Довженко",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1D4wB42h3_CyahRBE4-hjqH3MMijFzxuI/view",
+    "title": "Зелена Євангелія",
+    "author": "Богдан-Ігор Антонич",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1yiGdo7WyABMmwOkeRvKWPiTBoXoU1_DI/view",
+    "title": "Камінний хрест",
+    "author": "Василь Стефаник",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/14noh0PSujWbpTZPmqakQE_1INwCnFbNP/view",
+    "title": "Київ — традиція",
+    "author": "Микола Зеров",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Q_l2KNMaUTm-dtWCdSSANdMjxIHMVXBv/view",
+    "title": "Мина Мазайло",
+    "author": "Микола Куліш",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1qVzFtJvfyJ8NzlavYn_YXyIrrxvdp_HW/view",
+    "title": "Молюсь і вірю",
+    "author": "Максим Рильський",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1MUEHJENHCzzlg9p3_VjQjSDZbp8lFT5H/view",
+    "title": "Моя автобіографія",
+    "author": "Остап Вишня",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1svQT4bLdWRR0GHqWRYJcG4HVF6i5w2H5/view",
+    "title": "Ніч... а човен — як срібний птах...",
+    "author": "Євген Плужник",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1UwkhKLPsV-er_86Xzj_r-yLH-wjxR1Gl/view",
+    "title": "О панно Інно...",
+    "author": "Павло Тичина",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1_N4BiEKptOIuTDT2SoZPbdQaJh1BmZcL/view",
+    "title": "Одчиняйте двері",
+    "author": "Павло Тичина",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1uy0LuN82sWkirdn89MQ4m8zPk_HclOHu/view",
+    "title": "Пам'яті тридцяти",
+    "author": "Павло Тичина",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/16vhrMt9DqAjOrV84Zn4gQpw1R5GLtRS6/view",
+    "title": "Поза межами болю",
+    "author": "Осип Турянський",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/124OPLFOO-8vZ2j82R19ymrmx93DH5hCq/view",
+    "title": "Під чужим небом",
+    "author": "Євген Маланюк",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/14Ba5WLajhKW4dJTHBtiny7MVOYiNtTLS/view",
+    "title": "Різдво",
+    "author": "Богдан-Ігор Антонич",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Duj7ASaqqpyA3K5xiBEnGoVYqSWAivWv/view",
+    "title": "Річний пісок слідок ноги твоєї...",
+    "author": "Євген Плужник",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/19CbMQdYt9nCWdf3cF3AW74p0cGk-17Wu/view",
+    "title": "Солодкий світ!..",
+    "author": "Максим Рильський",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1GcLkkGFXhRNkmk1bV3iAcypPtreDEISs/view",
+    "title": "Сом",
+    "author": "Остап Вишня",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1p2JdVT0wMLiyKCgo9jsLlhL2R_ICqad2/view",
+    "title": "Стилет чи стилос?..",
+    "author": "Євген Маланюк",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1uX5gvBPK1HvvU4do9QbjSyyU_29LRBw5/view",
+    "title": "Тигролови",
+    "author": "Іван Багряний",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1j1lZ13RdeAtEWMRwRXVdf2g_GpDaiftm/view",
+    "title": "Україна в огні",
+    "author": "Олександр Довженко",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1a1HOXF2X5vvyvXeb4ObIHYK-VX57i5pj/view",
+    "title": "Я (Романтика)",
+    "author": "Микола Хвильовий",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1kBdpBd6s8iwgxv_HaYvTOeJOhyEk-jl9/view",
+    "title": "Як варити і їсти суп із дикої качки",
+    "author": "Остап Вишня",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1W59ZKnN03CH4fhPYsxENKIC6Zxl66IJ6/view",
+    "title": "Іванові Франкові",
+    "author": "Микола Вороний",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  },
+  {
+    "file": "https://drive.google.com/file/d/1Ox3XKAj-7dJpAmjHv3WeT6ZdDLfsN7vT/view",
+    "title": "Інфанта",
+    "author": "Микола Вороний",
+    "grades": [
+      11
+    ],
+    "genre": "Документ",
+    "year": null,
+    "desc": "Google Drive: EBIB_BOOKS_SITE / Ukrainska_literatura / 11_klas",
+    "img": "img/universal_img.png",
+    "recommended": false,
+    "literature": null
+  }
 ]

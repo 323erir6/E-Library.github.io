@@ -8,23 +8,25 @@ const DRIVE_FOLDER_ID = '1N16kt_a2QcyUC0xWYTuwGvTmZf5ie2YD';
 // Helpers to normalize catalog entries and work with Drive links
 const driveIdRegex = /^[A-Za-z0-9_-]{20,}$/;
 
-function toPreviewUrl(file){
+function toDriveViewUrl(file){
   if(!file) return null;
   const f = String(file).trim();
+  const openMatch = f.match(/[?&]id=([A-Za-z0-9_-]{20,})/);
+  if(openMatch) return `https://drive.google.com/file/d/${openMatch[1]}/view`;
   if(f.startsWith('http')){
-    // convert common Drive share links to preview
+    // convert common Drive share links to the regular Drive viewer page
     if(f.includes('drive.google.com')){
       return f
-        .replace('/view', '/preview')
-        .replace('/edit', '/preview')
+        .replace('/preview', '/view')
+        .replace('/edit', '/view')
         .replace('open?id=', 'file/d/')
         .replace('/uc?export=download&id=', '/file/d/')
         .replace(/\?(usp|resourcekey)[^#]+/, '');
     }
     return f; // any other URL – open as is
   }
-  // if we got a plain Drive file id – build preview URL
-  if(driveIdRegex.test(f)) return `https://drive.google.com/file/d/${f}/preview`;
+  // if we got a plain Drive file id – build Drive viewer URL
+  if(driveIdRegex.test(f)) return `https://drive.google.com/file/d/${f}/view`;
   // otherwise return null so caller can fallback to local reader
   return null;
 }
@@ -226,7 +228,10 @@ const $ = s => document.querySelector(s);
 const $$ = s => Array.from(document.querySelectorAll(s));
 let favs = new Set(JSON.parse(localStorage.getItem('favs')||'[]').map(String));
 
-function formatYear(y){ return y>0?y:+Math.abs(y)+" до н.е." }
+function formatYear(y){
+  if(y === null || y === undefined || y === '') return '';
+  return y > 0 ? String(y) : `${Math.abs(y)} до н.е.`;
+}
 function pluralize(n){ if(n===0) return 'книжок'; const m = n%10; const mm = n%100; if(m===1 && mm!==11) return 'книжка'; if(m>=2 && m<=4 && !(mm>=12 && mm<=14)) return 'книжки'; return 'книжок'; }
 
 function renderBooks(list){
@@ -263,7 +268,7 @@ function renderBooks(list){
       ${coverHtml}
       <div class="book-meta">
         <h3 class="book-title">${b.title}</h3>
-        <div class="book-author">${b.author} · ${formatYear(b.year)}</div>
+        <div class="book-author">${[b.author, formatYear(b.year)].filter(Boolean).join(' · ')}</div>
         <div class="book-tags">
           <span class="tag">${b.genre}</span>
           <span class="tag">${b.grades.join(', ')} кл.</span>
@@ -323,7 +328,7 @@ async function openModal(key){
         ${b.img ? `<div class="modal-cover"><img src="${b.img}" class="modal-cover-img" alt="${b.title}"></div>` : `<div class="modal-cover" style="background:${b.coverColor || 'linear-gradient(135deg,#cfd9df,#e2ebf0)'};height:220px;width:160px;border-radius:8px"></div>`}
         <div>
           <h3>${b.title}</h3>
-          <p class="book-author">${b.author} · ${formatYear(b.year)}</p>
+          <p class="book-author">${[b.author, formatYear(b.year)].filter(Boolean).join(' · ')}</p>
           <p><strong>Жанр:</strong> ${b.genre}</p>
           <p>${b.desc || ''}</p>
           <div style="margin-top:12px">
@@ -340,10 +345,10 @@ async function openModal(key){
       readBtn.addEventListener('click', async ()=>{
         readBtn.disabled = true; readBtn.textContent = 'Завантаження...';
         try{
-          const previewUrl = toPreviewUrl(b.file);
-          if(previewUrl){
-            window.open(previewUrl, '_blank', 'noopener');
-            showStatus('Відкриваю файл у переглядачі Google Drive');
+          const driveUrl = toDriveViewUrl(b.file);
+          if(driveUrl){
+            window.open(driveUrl, '_blank', 'noopener');
+            showStatus('Відкриваю файл на сторінці Google Drive');
             return;
           }
 
