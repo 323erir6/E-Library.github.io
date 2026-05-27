@@ -1,4 +1,4 @@
-﻿/* Simple library app: filters, search, sort, modal, favorites (localStorage) */
+/* Simple library app: filters, search, sort, modal, favorites (localStorage) */
 console.log('script.js executing');
 let books = []; // populated from /api/books (files in books_core)
 
